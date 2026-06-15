@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "2fqRdBX7YCBB1RkJEhgHU"
+uri = "file://scripts/FitAI_Training_Data.pdf"
+type = "pdf"
+title = "FitAI — Noupe AI Training Data (PDF)"
