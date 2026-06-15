@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FitAI — Your AI-Powered Fitness Companion
 
 > A production-ready, mobile-first fitness web app prototype powered by AI assistance. Built with React + Vite, Tailwind CSS, and Framer Motion.
@@ -233,3 +234,7 @@ MIT — free to use, modify, and distribute.
 <p align="center">
   Built with AI. Train with intelligence. &nbsp;|&nbsp; <strong>FitAI</strong>
 </p>
+=======
+# fit-ai
+AI-powered gym companion — workout plans, exercise library, progress tracking, meal planner, challenges &amp; XP, and Noupe AI chatbot. Built with React + Vite, Tailwind CSS, and Framer Motion.
+>>>>>>> 713d490acdc5e4adc68543371e6bae3b91213058
