@@ -1,11 +1,26 @@
-export const exercises = [
+export interface Exercise {
+  id: string;
+  name: string;
+  muscleGroup: string;
+  equipment: string;
+  difficulty: string;
+  description: string;
+  videoId: string;
+  duration: string;
+  tips: string[];
+}
+
+export const exercises: Exercise[] = [
   {
     id: "e1",
     name: "Barbell Bench Press",
     muscleGroup: "chest",
     equipment: "barbell",
     difficulty: "intermediate",
-    description: "A compound exercise that targets the chest, shoulders, and triceps."
+    description: "A premier upper-body compound exercise that develops the pectorals, anterior deltoids, and triceps.",
+    videoId: "rT7DgCr-3pg",
+    duration: "4:30",
+    tips: ["Retract your shoulder blades and pinch them into the bench", "Keep feet planted flat on the floor", "Lower the bar to your mid-chest with control"]
   },
   {
     id: "e2",
@@ -13,7 +28,10 @@ export const exercises = [
     muscleGroup: "chest",
     equipment: "dumbbell",
     difficulty: "beginner",
-    description: "An isolation exercise that targets the pectoral muscles."
+    description: "An isolation exercise that targets the pectoral muscles with a deep horizontal stretch.",
+    videoId: "eozdVDA78K0",
+    duration: "3:45",
+    tips: ["Maintain a slight bend at the elbows throughout", "Focus on a full chest stretch at the bottom", "Squeeze the chest at the top without clanging the dumbbells"]
   },
   {
     id: "e3",
@@ -21,7 +39,10 @@ export const exercises = [
     muscleGroup: "back",
     equipment: "bodyweight",
     difficulty: "advanced",
-    description: "A bodyweight exercise that targets the lats and biceps."
+    description: "The gold-standard bodyweight exercise that builds wide lats, upper back strength, and biceps.",
+    videoId: "eGo4IYlbE5g",
+    duration: "5:12",
+    tips: ["Initiate by depressing the scapulae before pulling", "Avoid excessive swinging or kipping", "Pull until your chin comfortably clears the bar"]
   },
   {
     id: "e4",
@@ -29,7 +50,10 @@ export const exercises = [
     muscleGroup: "legs",
     equipment: "barbell",
     difficulty: "intermediate",
-    description: "A lower body compound exercise targeting the quads, hamstrings, and glutes."
+    description: "The king of lower body movements targeting the quadriceps, hamstrings, glutes, and core.",
+    videoId: "bEv6CCg2BC8",
+    duration: "6:20",
+    tips: ["Keep your chest upright and brace your core", "Knees should track in line with your toes", "Hit at least parallel depth with hips level with knees"]
   },
   {
     id: "e5",
@@ -37,7 +61,10 @@ export const exercises = [
     muscleGroup: "legs",
     equipment: "machine",
     difficulty: "beginner",
-    description: "A machine-based exercise for the lower body."
+    description: "A machine-guided movement allowing heavy quadriceps and leg overload with reduced spine loading.",
+    videoId: "IZxyjW7MPJQ",
+    duration: "4:15",
+    tips: ["Never fully lock out knees at the top", "Keep your lower back pressed firmly into the pad", "Control the negative descent smoothly"]
   },
   {
     id: "e6",
@@ -45,7 +72,10 @@ export const exercises = [
     muscleGroup: "shoulders",
     equipment: "barbell",
     difficulty: "intermediate",
-    description: "A compound exercise targeting the deltoids."
+    description: "A vertical compound pushing movement that develops deltoids, upper chest, and core stability.",
+    videoId: "2yjwXTZQDDI",
+    duration: "5:40",
+    tips: ["Squeeze your glutes and brace your abs", "Press the bar in a straight vertical path", "Move your head back as bar passes, then forward at lockout"]
   },
   {
     id: "e7",
@@ -53,7 +83,10 @@ export const exercises = [
     muscleGroup: "shoulders",
     equipment: "dumbbell",
     difficulty: "beginner",
-    description: "An isolation exercise for the side deltoids."
+    description: "The primary isolation exercise for creating wider, boulder shoulders by targeting lateral deltoids.",
+    videoId: "3VcKaXpzqRo",
+    duration: "3:50",
+    tips: ["Lead with the elbows, not your hands", "Lean forward very slightly to align with the lateral deltoid plane", "Avoid swinging or shrugging with your traps"]
   },
   {
     id: "e8",
@@ -61,7 +94,10 @@ export const exercises = [
     muscleGroup: "arms",
     equipment: "dumbbell",
     difficulty: "beginner",
-    description: "An isolation exercise for the biceps."
+    description: "Classic arm isolation exercise targeting the bicep brachii for peaked arm development.",
+    videoId: "ykJmrZ5v0Oo",
+    duration: "3:30",
+    tips: ["Keep your elbows stationary at your sides", "Supinate your wrists (turn pinky up) as you curl", "Take 2-3 seconds on the lowering phase"]
   },
   {
     id: "e9",
@@ -69,7 +105,10 @@ export const exercises = [
     muscleGroup: "arms",
     equipment: "machine",
     difficulty: "beginner",
-    description: "A cable machine exercise for the triceps."
+    description: "A cable-based isolation exercise providing constant tension on the lateral and medial triceps heads.",
+    videoId: "2-LAMcpzODU",
+    duration: "4:10",
+    tips: ["Keep your upper arms locked by your torso", "Fully extend your elbows at the bottom and squeeze", "Do not let your shoulders roll forward"]
   },
   {
     id: "e10",
@@ -77,7 +116,10 @@ export const exercises = [
     muscleGroup: "core",
     equipment: "bodyweight",
     difficulty: "beginner",
-    description: "A static core stabilization exercise."
+    description: "An isometric core exercise that reinforces spinal stability, anti-extension, and endurance.",
+    videoId: "pSHjTRCQxIw",
+    duration: "3:15",
+    tips: ["Form a straight line from your head down to your heels", "Tuck your pelvis and actively squeeze glutes and abs", "Breathe in a steady rhythm without holding your breath"]
   }
 ];
 
